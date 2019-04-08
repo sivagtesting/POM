@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite_BDD" duration-ms="56825" started-at="2019-03-27T14:03:49Z" finished-at="2019-03-27T14:04:46Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CreateLeadUsingCucumber@853265]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test_BDD" duration-ms="56825" started-at="2019-03-27T14:03:49Z" finished-at="2019-03-27T14:04:46Z">
+      <class name="runner.LoginUsingCucumber">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="startReport" is-config="true" duration-ms="234" started-at="2019-03-27T14:03:49Z" finished-at="2019-03-27T14:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="setUpClass" is-config="true" duration-ms="78" started-at="2019-03-27T14:03:49Z" finished-at="2019-03-27T14:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="report" is-config="true" duration-ms="0" started-at="2019-03-27T14:03:49Z" finished-at="2019-03-27T14:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="beforeMethod" is-config="true" duration-ms="5515" started-at="2019-03-27T14:03:49Z" finished-at="2019-03-27T14:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="runScenario" duration-ms="2202" started-at="2019-03-27T14:03:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-27T14:03:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001 Positive Login Flow"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login For LeafTaps Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="afterMethod" is-config="true" duration-ms="60" started-at="2019-03-27T14:03:57Z" finished-at="2019-03-27T14:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="beforeMethod" is-config="true" duration-ms="4798" started-at="2019-03-27T14:03:57Z" finished-at="2019-03-27T14:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="runScenario" duration-ms="1820" started-at="2019-03-27T14:04:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-27T14:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001 Positive Login Flow"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login For LeafTaps Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="afterMethod" is-config="true" duration-ms="59" started-at="2019-03-27T14:04:03Z" finished-at="2019-03-27T14:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2019-03-27T14:04:03Z" finished-at="2019-03-27T14:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="stopReport" is-config="true" duration-ms="203" started-at="2019-03-27T14:04:46Z" finished-at="2019-03-27T14:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- runner.LoginUsingCucumber -->
+      <class name="runner.CreateLeadUsingCucumber">
+        <test-method status="PASS" signature="setData()[pri:0, instance:runner.LoginUsingCucumber@49835d]" name="setData" is-config="true" duration-ms="0" started-at="2019-03-27T14:03:49Z" finished-at="2019-03-27T14:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:runner.CreateLeadUsingCucumber@853265]" name="setData" is-config="true" duration-ms="0" started-at="2019-03-27T14:03:49Z" finished-at="2019-03-27T14:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.CreateLeadUsingCucumber@853265]" name="setUpClass" is-config="true" duration-ms="1" started-at="2019-03-27T14:04:03Z" finished-at="2019-03-27T14:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:runner.CreateLeadUsingCucumber@853265]" name="report" is-config="true" duration-ms="0" started-at="2019-03-27T14:04:03Z" finished-at="2019-03-27T14:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:runner.CreateLeadUsingCucumber@853265]" name="beforeMethod" is-config="true" duration-ms="4811" started-at="2019-03-27T14:04:03Z" finished-at="2019-03-27T14:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CreateLeadUsingCucumber@853265]" name="runScenario" duration-ms="13804" started-at="2019-03-27T14:04:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-27T14:04:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001 Positive Login Flow"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login For LeafTaps Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runner.CreateLeadUsingCucumber@853265]" name="afterMethod" is-config="true" duration-ms="2378" started-at="2019-03-27T14:04:22Z" finished-at="2019-03-27T14:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:runner.CreateLeadUsingCucumber@853265]" name="beforeMethod" is-config="true" duration-ms="5082" started-at="2019-03-27T14:04:24Z" finished-at="2019-03-27T14:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CreateLeadUsingCucumber@853265]" name="runScenario" duration-ms="13758" started-at="2019-03-27T14:04:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-03-27T14:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001 Positive Login Flow"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login For LeafTaps Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runner.CreateLeadUsingCucumber@853265]" name="afterMethod" is-config="true" duration-ms="2386" started-at="2019-03-27T14:04:43Z" finished-at="2019-03-27T14:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.CreateLeadUsingCucumber@853265]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2019-03-27T14:04:46Z" finished-at="2019-03-27T14:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.CreateLeadUsingCucumber -->
+    </test> <!-- Test_BDD -->
+  </suite> <!-- Suite_BDD -->
+</testng-results>
